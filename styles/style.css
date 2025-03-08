@@ -294,7 +294,7 @@ span{
     margin-left:118px;
 }
 #p4_p4{
-    width: 126.1px;
+    max-width: 126.1px;
     height: 59px;
     color: rgb(255, 0, 0);
     font-family: Inter;
@@ -318,7 +318,7 @@ span{
     text-align: left;
 }
 #section_4_image2{
-    width: 140px;
+    max-width: 140px;
     height: 140px;
     margin-top:100px;
 }
@@ -345,7 +345,7 @@ span{
 
 }
 #p5_p1{
-    width: 263px;
+    max-width: 263px;
     height: 29px;
     color: rgb(7, 2, 17);
     font-family: Inter;
@@ -363,7 +363,7 @@ span{
     line-height: 91px;
     letter-spacing: 0%;
     text-align: center;
-    width: 677px;
+    max-width: 677px;
     height: 91px;
 }
 #p5_p3{
@@ -374,24 +374,24 @@ span{
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
-    width: 1068px;
+    max-width: 1068px;
     height: 96px;
     margin-top:28px;
 }
 #p_img2{
-    width: 305.69px;
+    max-width: 305.69px;
     height: 305.69px;
     margin-bottom: 288px;
     margin-left:177px;
 }
 #p_img1{
-    width: 796.46px;
+    max-width: 796.46px;
     height: 662.07px;
     margin: 64px auto 0 0;
 }
 /* <!-- ----------section_6---------------- --> */
 .section_6_parent{
-    width: 1320px;
+    max-width: 1320px;
     height: 1163px;
     margin: 153px auto 0 auto;
 }
@@ -400,7 +400,7 @@ span{
     margin:0px 424px 972px 0px ;
 }
 .p1{
-    width: 192px;
+    max-width: 192px;
     height: 29px;
     color: rgb(255, 0, 0);
     font-family: Inter;
@@ -412,7 +412,7 @@ span{
     margin-bottom: 16px;
 }
 .p2{
-    width: 566px;
+    max-width: 566px;
     height: 60px;
     color: rgb(7, 2, 17);
     font-family: Merriweather;
@@ -435,3 +435,97 @@ span{
     text-align: left;
     margin-bottom:48px;
 }
+/* ---------section 7--------------- */
+.section_7_parent{
+    max-width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto 0px auto;
+}
+.section_7_child1{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 896px;
+    height: 336px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section_7_child1 img{
+    width: 150px;
+    height: 150px;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+.s1_p1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    width: 512px;
+    height: 60px;
+    margin-bottom:22px;
+
+}
+.s1_p2{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 896px;
+    height: 64px;
+}
+.section_7_child2 {
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    width: 648px;
+    height: 72px;
+    display:flex;
+    flex-direction: row;
+    margin: 78px auto auto auto;
+}
+.section_7_child2 input{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px;
+    background: rgb(255, 255, 255);
+    width: 488px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border : none;
+
+}
+.section_7_child2 button{
+    width: 210px;
+    height: 76px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px;
+    border: none;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
