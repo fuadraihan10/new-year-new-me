@@ -281,7 +281,7 @@ span{
     text-align: left;
 }
 #section_4_image{
-    width: 365.12px;
+    max-width: 365.12px;
     height: 364.84px;
     border: 15px solid rgb(255, 0, 0);
     border-radius: 50%;
@@ -321,4 +321,71 @@ span{
     width: 140px;
     height: 140px;
     margin-top:100px;
+}
+/* ----------------------section_5-------------------------------- */
+#section_5_parent{
+    max-width: 1320px;
+    height: 986.07px;
+    display: flex;
+    margin: 120px auto auto auto;
+    flex-direction: column;
+    background-image: url("/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+#section_5_child1{
+    max-width: 1068px;
+    height: 260px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 28px;
+
+}
+#p5_p1{
+    width: 263px;
+    height: 29px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+#p5_p2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 677px;
+    height: 91px;
+}
+#p5_p3{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1068px;
+    height: 96px;
+    margin-top:28px;
+}
+#p_img2{
+    width: 305.69px;
+    height: 305.69px;
+    margin-bottom: 288px;
+    margin-left:177px;
+}
+#p_img1{
+    width: 796.46px;
+    height: 662.07px;
+    margin: 64px auto 0 0;
 }
