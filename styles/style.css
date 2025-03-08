@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+/* -----------------heading----------------- */
 *{
     margin: 0;
     padding: 0;
@@ -49,6 +50,7 @@
     text-align: center;
     margin-top: 16px;
 }
+/* ------------------section_1----------------- */
 #section_1_parent{
     max-width: 802.9px;
     height: 806px;
@@ -105,4 +107,73 @@
     margin-top:48px;
     max-width: 802.9px;
     height: 500px;
+}
+/* -----------section_2---------------- */
+#section_2_parent{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("/images/Vectorrr.png");
+    MAX-width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    }
+#section_2_div1{
+
+
+
+}
+#p1{
+    max-width: 642px;
+    height: 176px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;;
+    letter-spacing: 11px;
+    text-align: left;
+    margin-top: 126px;
+    margin-left: 126px; 
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+#p2{
+    max-width: 697px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 126px;
+    margin-bottom: auto;
+    }
+#p3{
+    max-width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 158px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#section_2_image{
+    width: 319.83px;
+    height: 464.66px;
+    margin-top: 68.1px;
+    margin-right: 138px;
 }
